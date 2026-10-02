@@ -1,14 +1,53 @@
 1.git repo in the github.com: get the repo URL
 https://github.com/trilochanreddyautomation/PW_WEB_API_FRAMEWORK
+
 2.add the .gitignore file at the root of the project
+
 3.init the project with gitL
 git init
 Message: 
 Initialized empty Git repository in C:/Study/PLAYWRIGHT_WEB_API_FRAMEWORK/.git/
+
 4.Add the remote url:
 git remote add origin https://github.com/trilochanreddyautomation/PW_WEB_API_FRAMEWORK
+
 5.git status
 check the current status
 
 6.git add .
 move the code copy to the stage/index area
+
+7.git status
+
+8.git commit -m "Adding Framework Code"
+
+9.git push -u origin main
+via Auth process:
+username:email/username
+password: token:
+
+add --> commit --> push
+
+Projects:
+1.JavaScript Pratice -- repo url
+2.TypeScript Pratice -- repo url
+3.Playwright Core Sessions Pratice -- repo url
+4.Playwright Web API Framwork -- repo url
+
+
+w1:new member joining the project
+repo url will be shared
+clone the project in your local/laptop --> import the project in your IDE
+code review
+KT
+framework overview
+
+run tcs:npx playwright test
+
+US - automation task --> feature -- feature branch
+fix bug --- bug branch
+add --> commit --> push the code to the feature branch --> PR review process -- approved
+feature branch will be merged to the main branch
+
+
+
