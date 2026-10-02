@@ -1,0 +1,14 @@
+1.git repo in the github.com: get the repo URL
+https://github.com/trilochanreddyautomation/PW_WEB_API_FRAMEWORK
+2.add the .gitignore file at the root of the project
+3.init the project with gitL
+git init
+Message: 
+Initialized empty Git repository in C:/Study/PLAYWRIGHT_WEB_API_FRAMEWORK/.git/
+4.Add the remote url:
+git remote add origin https://github.com/trilochanreddyautomation/PW_WEB_API_FRAMEWORK
+5.git status
+check the current status
+
+6.git add .
+move the code copy to the stage/index area

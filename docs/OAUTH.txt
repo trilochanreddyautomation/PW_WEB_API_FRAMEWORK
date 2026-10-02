@@ -1,0 +1,14 @@
+Authorization: Bearer token
+
+OAuth 2.0
+
+before_each
+//1.Generate the token : refresh / access token
+token api:endpoint url,form params:grant_type, ,client_secret
+response: JSON: access_token = ertyuiopertyuiiii123456789
+token will expire immediately,10 mins,24 hrs,1 week(will use before_each)
+
+test:
+//2.functional api:
+//get /albums /users/ products
+header:{Authorization : Bearer access_token}

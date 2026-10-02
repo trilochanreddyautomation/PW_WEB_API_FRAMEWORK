@@ -1,0 +1,23 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/reports/
+/allure-report/
+/allure-results/
+
+#env files
+config/.env.*
+
+#build
+dist/
+
+#os(MAC)
+.DS_Store
+
+
+
