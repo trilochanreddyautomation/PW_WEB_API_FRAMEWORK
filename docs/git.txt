@@ -24,7 +24,7 @@ move the code copy to the stage/index area
 9.git push -u origin main
 via Auth process:
 username:email/username
-password: token:
+password: token
 
 add --> commit --> push
 
