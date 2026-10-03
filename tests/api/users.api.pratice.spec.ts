@@ -20,7 +20,7 @@ test('get all users api test', async ({ request }) => {
 
 });
 
-test('create a user api', async ({ request }) => {
+test.skip('create a user api', async ({ request }) => {
 
     //User JS Object:
     let userData = {
@@ -46,7 +46,7 @@ test('create a user api', async ({ request }) => {
 });
 
 
-test('update a user api', async ({ request }) => {
+test.skip('update a user api', async ({ request }) => {
 
     //User JS Object:
     let userData = {
@@ -72,7 +72,7 @@ test('update a user api', async ({ request }) => {
 });
 
 
-test('delete a user api', async ({ request }) => {
+test.skip('delete a user api', async ({ request }) => {
 
     let response = await request.delete('https://gorest.co.in/public/v2/users/8617624',
         {

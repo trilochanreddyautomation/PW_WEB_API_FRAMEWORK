@@ -16,7 +16,7 @@ test('intercept and log requets', async ({ page }) => {
 //intercept with mocking:
 //mocking:fake data/response:
 
-test('mock search with fake api', async ({ page }) => {
+test('@smoke mock search with fake api', async ({ page }) => {
     //JS
     let fakeProducts = [
         { name: 'Fake Macbook Pro', price: '$599' },
@@ -35,7 +35,7 @@ test('mock search with fake api', async ({ page }) => {
     await page.goto('https://abc.com/index.php?route=product/search&search=mackbook');
 });
 
-test('mock search page with fake HTML', async ({ page }) => {
+test('@smoke mock search page with fake HTML', async ({ page }) => {
 
     await page.route('**/index.php?route=product/search&search=macbook', async (route) => {
         await route.fulfill({

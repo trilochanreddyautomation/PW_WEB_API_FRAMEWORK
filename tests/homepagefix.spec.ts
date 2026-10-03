@@ -7,7 +7,7 @@ test.beforeEach(async ({ loginPage }) => {
 })
 
 
-test('home page title test', async ({ homePage }) => {
+test('@smoke home page title test', async ({ homePage }) => {
 
     let homePageTitle = await homePage.getHomePageTitle();
     console.log(homePageTitle);
@@ -15,11 +15,11 @@ test('home page title test', async ({ homePage }) => {
 
 })
 
-test('logout link exist test', async ({ homePage }) => {
+test('@smoke logout link exist test', async ({ homePage }) => {
     expect(await homePage.isLogoutLinkExist()).toBeTruthy();
 })
 
-test('home page headers exist test', async ({ homePage }) => {
+test('@regression home page headers exist test', async ({ homePage }) => {
 
     let allHeaders = await homePage.getHomeHeaders();
     console.log("home page headers :", allHeaders);
@@ -34,20 +34,20 @@ test('home page headers exist test', async ({ homePage }) => {
 })
 
 //common features test
-test('App logo exists on login page',async ({basePage}) =>{
+test('@smoke App logo exists on login page',async ({basePage}) =>{
     expect(await basePage.isLogoVisible()).toBeTruthy();
 });
 
-test('search box exists on login page',async ({basePage}) =>{
+test('@smoke search box exists on login page',async ({basePage}) =>{
     expect(await basePage.isSearchBoxVisible()).toBeTruthy();
 }) 
 
 
-test('Cart exists on login page',async ({basePage}) =>{
+test('@smoke Cart exists on login page',async ({basePage}) =>{
     expect(await basePage.isCartButtonVisible()).toBeTruthy();
 }) 
 
-test('Footer exists on login page',async ({basePage}) =>{
+test('@smoke Footer exists on login page',async ({basePage}) =>{
     expect(await basePage.getPageFootersCount()).toBe(16);
 
 }) 

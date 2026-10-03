@@ -51,7 +51,7 @@ let userArraySchema = {
 
 
 
-test('get a user - schema test', async ({ apiHelper }) => {
+test('@smoke get a user - schema test', async ({ apiHelper }) => {
 
     //User JS Object:
     let userData = {
@@ -82,7 +82,7 @@ test('get a user - schema test', async ({ apiHelper }) => {
 
 
 
-test('get all users - schema test', async ({ apiHelper }) => {
+test('@smoke get all users - schema test', async ({ apiHelper }) => {
 
     //get all users
     let getUsersResponse = await apiHelper.get(`/public/v2/users/`, AUTH_HEADER);

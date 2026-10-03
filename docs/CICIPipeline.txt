@@ -1,0 +1,9 @@
+CI CD Pipeline
+dev(app code repo:java) + qa(automation test repo:PW TS)
+
+1.Build App + Unit Test Cases
+2.Deploy to dev env + Sanity Test Cases 
+3.Deploy to QA env + Regression Test Cases 
+4.Deploy to stage env + Sanity/Smoke Test Cases 
+5.Deploy to prod env + Sanity/Smoke Test Cases 
+6.Pipeline Summary 
