@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 //npm install dotenv
 //ENV=qa npx playwright test
 const ENV = process.env.ENV || "qa";
-console.log('Running tests on Environment: ',ENV);
-dotenv.config({path:`config/.env.${ENV}`})
+console.log('Running tests on Environment: ', ENV);
+dotenv.config({ path: `config/.env.${ENV}` })
 
 export default defineConfig({
   testDir: './tests',
@@ -16,22 +16,34 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 2 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
 
-  reporter: [
-    ['list'],
-    ['html',{outputFolder:"reports/html-report",open:'never'}],
-    ['allure-playwright',{
-      outputFolder:"allure-results",
-      suiteTitle:true,
-    }]
-  ],
+  reporter: process.env.CI
+    ?
+    [
+      ['list'],
+      ['html', { outputFolder: "reports/html-report", open: 'never' }],
+      ['allure-playwright', {
+        outputFolder: "allure-results",
+        suiteTitle: true,
+      }]
+    ]
+    :
+    [
+      ['list'],
+      ['html', { outputFolder: "reports/html-report", open: 'never' }],
+      ['allure-playwright', {
+        outputFolder: "allure-results",
+        suiteTitle: true,
+      }]
+    ],
+
 
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: process.env.BASE_URL,
-    headless: true,
+    headless: !process.env.CI ? false : true,
     trace: 'on-first-retry',
     screenshot: 'only-on-failure'
   },

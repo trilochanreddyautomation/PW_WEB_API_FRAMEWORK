@@ -12,6 +12,7 @@ node_modules/
 
 #env files
 config/.env.*
+!config/.env.example
 
 #build
 dist/
