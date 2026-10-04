@@ -1,0 +1,8 @@
+Create User ID : 8648188
+{
+  id: 8648188,
+  name: 'Trilochan',
+  email: 'Trilochanautomation_1791090834250@open.com',
+  gender: 'male',
+  status: 'active'
+} 200
