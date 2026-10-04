@@ -1,0 +1,72 @@
+[
+  {
+    id: 8648178,
+    name: 'Trilochan',
+    email: 'Trilochanautomation_1791089987840@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8648142,
+    name: 'Trilochan',
+    email: 'Trilochanautomation_1791080000668@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8648141,
+    name: 'Trilochan',
+    email: 'Trilochanautomation_1791079909373@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8648139,
+    name: 'reddyAutomation',
+    email: 'reddyautomation_1791079825753@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8648137,
+    name: 'reddy',
+    email: 'reddyautomation_1791079824903@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8648136,
+    name: 'Trilochan',
+    email: 'Trilochanautomation_1791079742202@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8647575,
+    name: 'Trilochan',
+    email: 'Trilochanautomation_1791039658406@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8647574,
+    name: 'Trilochan',
+    email: 'Trilochanautomation_1791039568801@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8647571,
+    name: 'reddyAutomation',
+    email: 'reddyautomation_1791039487856@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8647570,
+    name: 'reddy',
+    email: 'reddyautomation_1791039487270@open.com',
+    gender: 'male',
+    status: 'active'
+  }
+] 200
