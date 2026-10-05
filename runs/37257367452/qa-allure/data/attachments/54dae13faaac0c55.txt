@@ -1,0 +1,8 @@
+{
+  id: 8649527,
+  name: 'reddy',
+  email: 'reddyautomation_1791169123521@open.com',
+  gender: 'male',
+  status: 'active'
+} 200
+{ message: 'Resource not found' } 404

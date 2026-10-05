@@ -1,0 +1,13 @@
+User Creds:trilochanreddy.qa@gmail.com - pw@123
+search key : macbook
+product name MacBook Pro
+Actual Product Details Map(8) {
+  'productheader' => 'MacBook Pro',
+  'productImagesCount' => 4,
+  'Brand' => 'Apple',
+  'Product Code' => 'Product 18',
+  'Reward Points' => '800',
+  'Availability' => 'Out Of Stock',
+  'ProductPrice' => '$2,000.00',
+  'ExternalTaxPrice' => '$2,000.00'
+}
