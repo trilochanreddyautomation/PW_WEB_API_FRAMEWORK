@@ -1,0 +1,3 @@
+Auth API Response : { token: 'e0cb6674b5a468d' }
+token ------> e0cb6674b5a468d
+Booking ID: 1707
